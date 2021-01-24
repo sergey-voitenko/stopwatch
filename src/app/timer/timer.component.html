@@ -1,0 +1,21 @@
+<div>
+  {{time | timerFormatter}}
+</div>
+
+<div class="buttons">
+  <div *ngIf="!count" class="button">
+    <button (click)="start()">Start</button>
+  </div>
+
+  <div *ngIf="count" class="button">
+    <button (click)="stop()">Stop</button>
+  </div>
+
+  <div class="button">
+    <button (click)="wait()">Wait</button>
+  </div>
+
+  <div class="button">
+    <button (click)="reset()">Reset</button>
+  </div>
+</div>

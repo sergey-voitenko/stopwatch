@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "timer"
+  "defaultProject": "timer",
+  "cli": {
+    "analytics": "6a9582bc-a13d-4ecc-99b3-316ca1e20f87"
+  }
 }
